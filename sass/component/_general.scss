@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap");
+
+$primary-color: #3f5efb;
+$secondary-color: #fc466b;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// .container {
+//   background-color: ;
+// }
+
+@mixin button {
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+@import "./component/general";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+  .button {
+    width: 120px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, $primary-color, $secondary-color);
+    @include button;
+  }
+}
